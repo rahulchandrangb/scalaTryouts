@@ -21,6 +21,6 @@ object extract extends App{
 		case freeUsr @ premiumCandidate() => 
 			println("Magic Happened!!")
 		case _ =>
-			println("Bull Shit!!")
+			println("None..!!")
 	}
 }

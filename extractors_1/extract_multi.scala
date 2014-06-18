@@ -17,7 +17,7 @@ object extractor extends App{
 	}
 	
 	val usr1 : User  = new PremiumUser("Rahul",10)
-	val usr: User = new FreeUser("Aish",20,0.87)	
+	val usr: User = new FreeUser("Root",20,0.87)	
 	usr match {
 		case FreeUser(name,_,p) =>
 			if(p>0.75) println(s"Hi $name, wud u like to upgrade")
